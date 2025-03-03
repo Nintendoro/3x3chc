@@ -7,7 +7,7 @@ int main() {
 
     
     cout << "Enter the number of rows and columns: ";
-    cin >> rows >> cols;
+    cin >> cols >> rows;
 
     
     for (int i = 0; i < rows; i++) {
