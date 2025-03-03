@@ -6,10 +6,8 @@ int main() {
     int cols{};
 
     
-    cout << "Enter number of rows: ";
-    cin >> rows;
-    cout << "Enter number of columns: ";
-    cin >> cols;
+    cout << "Enter the number of rows and columns: ";
+    cin >> rows >> cols;
 
     
     for (int i = 0; i < rows; i++) {
