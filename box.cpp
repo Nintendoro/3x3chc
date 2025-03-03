@@ -6,7 +6,6 @@ int main() {
     int cols{};
 
     
-    cout << "Enter the number of rows and columns: ";
     cin >> cols >> rows;
 
     
