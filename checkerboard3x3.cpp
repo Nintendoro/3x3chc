@@ -2,19 +2,30 @@
 using namespace std;
 #include <string>
 
-int main(){
-    int size{3};
-
+int main() {
+    int size = 3;
+    
     for (int i = 0; i < size; i++) {
-        for (int j = 0; j < size; j++){
-                cout << "*";
-            } 
-        
-            cout << endl;
-        }
-            return 0;
+        cout << "  ***   ***" << endl;
+    }
+    for (int i = 0; i < size; i++) {
+        cout << "     ***" << endl;
+    }
+    for (int i = 0; i < size; i++) {
+        cout << "  ***   ***" << endl;
+    }
+    
+    return 0;
+}
 
-        }
+
+
+
+
+
+
+
+ 
 
 
 
